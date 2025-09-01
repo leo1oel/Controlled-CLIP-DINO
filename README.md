@@ -5,7 +5,7 @@ This repository contains the models and resources for our paper, "Data or Langua
 CLIP outperforms self-supervised models like DINO as vision encoders for vision-language models (VLMs), but it remains unclear whether this advantage stems from CLIP’s language supervision or its much larger training data. To disentangle these factors, we pre-train CLIP and DINO under controlled settings—using the same architecture, dataset, and training configuration—achieving similar ImageNet accuracy. Embedding analysis shows that CLIP captures high-level semantics (e.g., object categories, text), while DINO is more responsive to low-level features like colors and styles. When integrated into VLMs and evaluated on 20 VQA benchmarks, CLIP excels at text-intensive tasks and is comparable to DINO on others. Variants of language supervision (e.g., sigmoid loss, pre-trained language encoders) yield limited gains. Our findings provide scientific insights into vision encoder design and its impact on VLM performance.
 ## Models
 
-These encoders were trained from scratch on a 10M subset of the DataComp dataset.
+These encoders were trained from scratch on a 10M subset of the [DataComp](https://huggingface.co/datasets/mlfoundations/DataComp-12M) dataset.
 
 | Model | Architecture | Hugging Face Link |
 | :--- | :--- | :--- |

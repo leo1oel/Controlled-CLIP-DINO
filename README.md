@@ -9,8 +9,6 @@ These encoders were trained from scratch on a 10M subset of the DataComp dataset
 
 | Model | Architecture | Hugging Face Link |
 | :--- | :--- | :--- |
-| Controlled CLIP (Base) | `ViT-B/16` | [Leonardo6/clip-vit-b-16-datacomp-10m](https://huggingface.co/Leonardo6/clip-vit-b-16-datacomp-10m) |
-| Controlled DINO (Base) | `ViT-B/16` | [Leonardo6/dino-vit-b-16-datacomp-10m](https://huggingface.co/Leonardo6/dino-vit-b-16-datacomp-10m) |
 | DINO DataComp 12M | `ViT-B/16` | [Leonardo6/dino-datacomp-12m-16](https://huggingface.co/Leonardo6/dino-datacomp-12m-16) |
 | CLIP RoBERTa-10 DataComp 12M | `ViT-B/16` | [Leonardo6/clip-roberta10-datacomp-12m-16](https://huggingface.co/Leonardo6/clip-roberta10-datacomp-12m-16) |
 | CLIP RoBERTa-4 DataComp 12M | `ViT-B/16` | [Leonardo6/clip-roberta4-datacomp-12m-16](https://huggingface.co/Leonardo6/clip-roberta4-datacomp-12m-16) |
